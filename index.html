@@ -1,1 +1,112 @@
-Hello World
+<html>
+
+<head>
+    <title>Kannah Millano –– Software Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <section id="about">
+                <p>
+                    Multos ingeniis si transferrem id ubi fabulas efflorescere. Ubi aute id anim ea varias tempor incurreret. An lorem fugiat multos officia iis te anim exquisitaque. An enim coniunctione ubi arbitror ne duis. Aut quorum nam multos.
+                </p>
+            </section>
+
+            <section id="case-studies">
+                <div class="fade">
+                    <div>
+                        <img src="images/1.png">
+                        <div class="desc">
+                            <h2 class="case-name">— green tea</h2>
+                            <p>
+                                Veniam expetendis ubi exercitation non dolor efflorescere offendit summis proident non ea officia efflorescere, summis despicationes appellat elit deserunt, multos nam senserit o nisi id aliqua ea se esse incurreret o aliquip quid vidisse appellat id incididunt sunt minim mentitum labore. Id culpa cillum velit eiusmod. Quid iis doctrina se quem, de ab eram eiusmod.
+                            </p>
+                            <a class="read-more" href="#">↓</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="images/2.jpg">
+                        <div class="desc">
+                            <h2 class="case-name">— oolong tea</h2>
+                            <p>
+                                Veniam expetendis ubi exercitation non dolor efflorescere offendit summis proident non ea officia efflorescere, summis despicationes appellat elit deserunt, multos nam senserit o nisi id aliqua ea se esse incurreret o aliquip quid vidisse appellat id incididunt sunt minim mentitum labore. Id culpa cillum velit eiusmod. Quid iis doctrina se quem, de ab eram eiusmod.
+                            </p>
+                            <a class="read-more" href="#">↓</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <p>Sed cillum nescius cohaerescant. Fore senserit sed duis quis, qui fore malis nisi laboris. De ab magna admodum, e varias fabulas commodo.
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <h1 class="heading">millano.</h1>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+
+    <script>
+        $(".main").onepage_scroll({
+            sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
+            animationTime: 1000, // AnimationTime let you define how long each section takes to animate
+            pagination: true, // You can either show or hide the pagination. Toggle true for show, false for hide.
+            updateURL: true, // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+            beforeMove: function(index) {}, // This option accepts a callback function. The function will be called before the page moves.
+            afterMove: function(index) {}, // This option accepts a callback function. The function will be called after the page moves.
+            loop: false, // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+            keyboard: true, // You can activate the keyboard controls
+            responsiveFallback: false, // You can fallback to normal page scroll by defining the width of the browser in which
+            // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+            // the browser's width is less than 600, the fallback will kick in.
+            direction: "vertical" // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+        });
+
+    </script>
+
+    <script>
+        var paginationLinks = $('ul.onepage-pagination li a');
+        paginationLinks.each(function(index, link) {
+            var linkIndex = $(link).data('index');
+            switch (linkIndex) {
+                case 1:
+                    var linkTitle = 'about';
+                    break;
+                case 2:
+                    var linkTitle = 'case-studies';
+                    break;
+                case 3:
+                    var linkTitle = 'contact';
+                    break;
+            }
+
+            $('<strong>' + linkTitle + '</strong>').appendTo($(link));
+        });
+
+    </script>
+
+    <script type="text/javascript" src="js/slick.js"></script>
+
+    <script>
+        $('.fade').slick({
+            infinite: true,
+            speed: 600,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+    </script>
+</body>
+
+</html>
