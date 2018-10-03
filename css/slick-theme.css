@@ -151,7 +151,6 @@
 .slick-next:hover {
     font-family: 'Maison Neue';
     content: 'next';
-    background-color: white;
 }
 
 [dir='rtl'] .slick-next:before {
