@@ -2,10 +2,10 @@
     font-family: 'Dala Floda';
     src: url('../fonts/dala-floda/DalaFloda-Medium.eot');
     src: url('../fonts/dala-floda/DalaFloda-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/dala-floda/DalaFloda-Medium.woff2') format('woff2'),
-    url('../fonts/dala-floda/DalaFloda-Medium.woff') format('woff'),
-    url('../fonts/dala-floda/DalaFloda-Medium.ttf') format('truetype'),
-    url('../fonts/dala-floda/DalaFloda-Medium.svg#DalaFloda-Medium') format('svg');
+        url('../fonts/dala-floda/DalaFloda-Medium.woff2') format('woff2'),
+        url('../fonts/dala-floda/DalaFloda-Medium.woff') format('woff'),
+        url('../fonts/dala-floda/DalaFloda-Medium.ttf') format('truetype'),
+        url('../fonts/dala-floda/DalaFloda-Medium.svg#DalaFloda-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
@@ -14,10 +14,10 @@
     font-family: 'Butler Stencil';
     src: url('../fonts/butler/ButlerStencil-Medium.eot');
     src: url('../fonts/butler/ButlerStencil-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/butler/ButlerStencil-Medium.woff2') format('woff2'),
-    url('../fonts/butler/ButlerStencil-Medium.woff') format('woff'),
-    url('../fonts/butler/ButlerStencil-Medium.ttf') format('truetype'),
-    url('../fonts/butler/ButlerStencil-Medium.svg#ButlerStencil-Medium') format('svg');
+        url('../fonts/butler/ButlerStencil-Medium.woff2') format('woff2'),
+        url('../fonts/butler/ButlerStencil-Medium.woff') format('woff'),
+        url('../fonts/butler/ButlerStencil-Medium.ttf') format('truetype'),
+        url('../fonts/butler/ButlerStencil-Medium.svg#ButlerStencil-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
@@ -26,10 +26,10 @@
     font-family: 'Maison Neue';
     src: url('../fonts/maison/MaisonNeue-Mono.eot');
     src: url('../fonts/maison/MaisonNeue-Mono.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/maison/MaisonNeue-Mono.woff2') format('woff2'),
-    url('../fonts/maison/MaisonNeue-Mono.woff') format('woff'),
-    url('../fonts/maison/MaisonNeue-Mono.ttf') format('truetype'),
-    url('../fonts/maison/MaisonNeue-Mono.svg#MaisonNeue-Mono') format('svg');
+        url('../fonts/maison/MaisonNeue-Mono.woff2') format('woff2'),
+        url('../fonts/maison/MaisonNeue-Mono.woff') format('woff'),
+        url('../fonts/maison/MaisonNeue-Mono.ttf') format('truetype'),
+        url('../fonts/maison/MaisonNeue-Mono.svg#MaisonNeue-Mono') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -135,19 +135,19 @@ strong {
     font-family: 'Maison Neue';
 }
 
-/********** case-studies **********/
+/********** projects **********/
 
-#case-studies .fade div {
+#projects .fade div {
     display: flex;
     width: 1300px;
 }
 
-#case-studies .fade div img {
+#projects .fade div img {
     width: calc(50% - 50px);
     margin: 50px 25px 50px 50px;
 }
 
-#case-studies .fade div .desc {
+#projects .fade div .desc {
     display: block;
     width: calc(50% - 50px);
     margin: 50px 50px 50px 25px;
@@ -171,37 +171,37 @@ strong {
 
 @media screen and (max-width: 1310px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 1200px;
     }
 }
 
 @media screen and (max-width: 1210px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 1000px;
     }
 
-    #case-studies .fade div .desc {
+    #projects .fade div .desc {
         font-size: 85%;
     }
 }
 
 @media screen and (max-width: 1010px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 850px;
     }
 
-    #case-studies .fade div img {
+    #projects .fade div img {
         padding-top: 50px;
         height: 65%;
     }
 
-    #case-studies .fade div .desc {
+    #projects .fade div .desc {
         padding-top: 35px;
         font-size: 70%;
         margin: initial 0;
@@ -220,32 +220,32 @@ strong {
         margin: 0 25px;
     }
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 600px;
         display: block;
     }
 
-    #case-studies .fade div img {
+    #projects .fade div img {
         width: initial;
         padding-top: 120px;
         height: 50%;
         margin: 0 auto;
     }
 
-    #case-studies .fade div .desc {
+    #projects .fade div .desc {
         margin: 0 auto;
     }
 
-    #case-studies .fade div .desc p {
+    #projects .fade div .desc p {
         display: none;
     }
 }
 
 @media screen and (max-width: 650px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 500px;
     }
 }
@@ -272,24 +272,24 @@ strong {
 
 @media screen and (max-width: 520px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 450px;
     }
 
-    #case-studies .fade div img {
+    #projects .fade div img {
         margin-left: 50px;
     }
 }
 
 @media screen and (max-width: 440px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 350px;
     }
 
-    #case-studies .fade div img {
+    #projects .fade div img {
         width: 250px;
         height: 45%;
         margin: auto;
@@ -318,20 +318,20 @@ strong {
 
 @media screen and (max-width: 320px) {
 
-    /********** case-studies **********/
-    #case-studies .fade div {
+    /********** projects **********/
+    #projects .fade div {
         width: 250px;
         height: auto;
     }
 
-    #case-studies .fade div img {
+    #projects .fade div img {
         width: 150px;
         height: 35%;
         margin-top: 0;
         padding-top: 80px;
     }
 
-    #case-studies .fade div .desc {
+    #projects .fade div .desc {
         margin: 20px;
     }
 
